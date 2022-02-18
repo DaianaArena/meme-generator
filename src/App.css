@@ -71,6 +71,10 @@ table {
   color: white;
 }
 
+.autor {
+  font-size: 13px;
+}
+
 .create--meme {
   display: flex;
   flex-direction: column;
