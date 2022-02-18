@@ -6,7 +6,7 @@ export default function Navbar () {
             <h1>MEME GENERATOR</h1>
             </div>
 
-            <p className="autor">Develop by <a href="https://www.linkedin.com/in/arenadaiana/" target="_blank">Daiana Arena</a></p>
+            <p className="autor">Developed by <a href="https://www.linkedin.com/in/arenadaiana/" target="_blank">Daiana Arena</a></p>
 
         </nav>
     )
