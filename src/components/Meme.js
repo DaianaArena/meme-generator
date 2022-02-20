@@ -1,12 +1,18 @@
-export default function Meme () {
-    return (
-        <section className="create--meme">
-                <div className="meme--inputs">
-                    <input type="text" placeholder="Top text" />
-                    <input type="text" placeholder="Bottom text" />
-                </div>
+import memesData from  "../memesData"
 
-                <button className="meme--download">Get a new meme image </button>
-        </section>
+
+export default function Meme () {
+
+    const randomNumber = Math.floor(Math.random() * memesData.data.memes.length)
+    const randomMeme = memesData.data.memes[randomNumber].url
+
+
+
+    return (
+        <div className="meme--container">
+            <img src={randomMeme} alt="meme" />
+        </div>
+
     )
 }
+
