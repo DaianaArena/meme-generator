@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Form from './components/Form';
-import Meme from "./components/Meme";
+
 
 function App() {
   return (
@@ -9,7 +9,6 @@ function App() {
 
        <Navbar />
        <Form />
-       <Meme />
 
     </div>
 

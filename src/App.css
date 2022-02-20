@@ -115,13 +115,9 @@ table {
 }
 
 
-.meme--container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.meme--container img {
-  max-width: 100%;
-    border-radius: 3px;
+.meme--image {
+  max-width: 80%;
+  border-radius: 3px;
+  display:block;
+  margin:auto;
 }
